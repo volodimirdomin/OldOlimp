@@ -1,0 +1,162 @@
+
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+}
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.mainmenu {
+  background: #444;
+  position: fixed;
+  width: 100%;
+  height:50px;
+  margin: 0;
+}
+.mainmenu ul {
+list-style:none;
+margin:0;
+padding:0;
+position: relative;
+left:50%;
+float:left;
+font: 20px Arial, Helvetica, sans-serif;
+height:50px;
+}
+.mainmenu ul li {
+position:relative;
+left:-50%;
+float:left;
+margin:0 10px;
+height:50px
+}
+.mainmenu ul li a {
+color: #fff;
+display:block;
+text-decoration:none;
+padding:0 15px;
+line-height: 50px;
+}
+.mainmenu ul li a:hover {
+  background-color:#666; 
+}
+
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax .first_h {
+  color: #fff;
+  font-size: 58px;
+  line-height: 17;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 45px rgba(0, 0, 0, 9);
+}
+section.module.parallax .second_h1 {
+  color: #fff;
+  font-size: 75px;
+  line-height: 980px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 45px rgba(0, 0, 0, 1);
+}
+section.module.parallax-1 {
+  height: 100vh;
+  background-image: url("../img/Innovation.jpg");
+}
+section.module.parallax-2 {
+  background-image: url("../img/1.jpg");
+}
+section.module.parallax-3 {
+  background-image: url("../img/30930703_l.jpg");
+}
+section.module.parallax-4 {
+  height: 100vh;
+  background-image: url("../img/2.1.jpg");
+}
+section.module.parallax-5 {
+  background-image: url("../img/2.2.png");
+}
+section.module.parallax-6 {
+  background-image: url("../img/2.3.jpg");
+}
+section.module.parallax-7 {
+  height: 100vh;
+  background-image: url("../img/3.1.jpg");
+}
+section.module.parallax-8 {
+  background-image: url("../img/3.2.jpg");
+}
+section.module.parallax-9 {
+  background-image: url("../img/3.3.jpg");
+}
+section.module.parallax-10 {
+  height: 100vh;
+  background-image: url("../img/4.1.jpg");
+}
+section.module.parallax-11 {
+  background-image: url("../img/4.2.jpg");
+}
+section.module.parallax-12 {
+  background-image: url("../img/4.3.jpg");
+}
+
+.cd-top {
+  position: fixed;
+  right: 30px;
+  bottom: 70px;
+  display: block;
+  width: 128px;
+  height: 128px;
+  background-image: url(../img/arrow-up.png);
+  display: none;
+}
+
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 160px;
+  }
+}
